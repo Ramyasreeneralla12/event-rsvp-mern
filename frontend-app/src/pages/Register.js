@@ -17,7 +17,7 @@ export default function Signup() {
       await API.post("/auth/register", form);
       navigate("/login");
     } catch {
-      setMsg("Signup failed");
+      setMsg("Signup failed because you already completed signup");
     }
   };
 

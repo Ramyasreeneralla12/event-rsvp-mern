@@ -1,3 +1,4 @@
+
 import { useContext, useState } from "react";
 import API from "../services/api";
 import { AuthContext } from "../context/AuthContext";
@@ -35,11 +36,11 @@ export default function Login() {
           required
           onChange={(e) => setForm({ ...form, password: e.target.value })}
         />
-        <button>Login</button>
+        <button >Login</button>
       </form>
       <p>{msg}</p>
       <p>
-        New user? <a href="/signup">Signup</a>
+        New user? <a href="/register">Signup</a>
       </p>
     </div>
   );

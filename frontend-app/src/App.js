@@ -3,7 +3,9 @@ import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Register from "./pages/Register";
+
+
 import Dashboard from "./pages/Dashboard";
 import EventRoom from "./pages/EventRoom";
 
@@ -15,7 +17,8 @@ function App() {
           <Route path="/" element={<Navigate to="/login" />} />
 
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+         <Route path="/Register" element={<Register />} />
+
 
           <Route
             path="/dashboard"
