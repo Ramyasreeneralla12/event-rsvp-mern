@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://event-rsvp-backend-f4rb.onrender.com",
+  baseURL: "https://event-rsvp-backend-f4rb.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
