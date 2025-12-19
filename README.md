@@ -29,9 +29,9 @@ A full-stack Event RSVP web application built using the MERN stack that allows u
 - Dashboard showing:
   - Events created by the user
   - Events joined by the user
-  - All upcoming and completed events
+  - All completed events
 - Event auto-completion after 30 minutes of start time
-- Only event creators can edit or delete their events
+- Only event creators can delete their events
 - Fully responsive UI (mobile, tablet, desktop)
 
 ##  RSVP Capacity & Concurrency Handling
